@@ -4,7 +4,7 @@ import { parse } from "csv-parse";
 
 const SquidBingo = () => {
   const drawNumbersPath = path.resolve(__dirname, "DrawNumbers.csv");
-  const bingoBoardsPath = path.resolve(__dirname, "real_boards.csv");
+  const bingoBoardsPath = path.resolve(__dirname, "BingoBoards.csv");
 
   // Uncomment the following lines to test with the test files
   // const bingoBoardsPath = path.resolve(__dirname, "TestBoards.csv");
